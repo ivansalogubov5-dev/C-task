@@ -12,4 +12,5 @@ int main() {
 	cout << "Hello!";
 
 	system("pause > nul");
-	return 0;}
+
+return 0;}
