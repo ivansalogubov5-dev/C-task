@@ -1,1 +1,32 @@
+#include<iostream>
+using namespace std;
 
+int main() {
+
+	system("chcp 1251 > nul");
+
+	int a, b;
+	cout << "Enter number a: " << endl;
+	cin >> a;
+	cout << "Enter number b: " << endl;
+	cin >> b;
+	cout << " " << endl;
+
+
+	// From a to 0, if a == 0 output be "0"
+	do {
+		cout << a << endl;
+		a--;
+	} while (a >= 0);
+
+	cout << " " << endl;
+
+	// From b to 1, if b == 0 output be "0"
+	do {
+		cout << b << endl;
+		b--;
+	} while (b > 0);
+
+	system("pause > nul");
+	return 0;
+}
