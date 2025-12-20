@@ -1,1 +1,29 @@
+#include<iostream>
+using namespace std;
 
+int main() {
+
+	system("chcp 1251 > nul");
+
+	int a;
+	cout << "Enter number a: " << endl;
+	cin >> a;
+	
+	switch (a) {
+	case 1:
+		a == 1;
+		cout << "a = 1, what next?";
+		break;
+	case 2:
+		a == 2;
+		cout << "a = 2, what next?";
+		break;
+	case 3:
+		a == 3;
+		cout << "a = 3, what next?";
+		break;
+	}
+
+	system("pause > nul");
+	return 0;
+}
