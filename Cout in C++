@@ -1,1 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	system("chcp 1251 > nul");
+
+	int k = 0;
+	char i = 'l';
+
+	cout << "hi" << endl;
+	cout << 10 << endl;
+
+	cout << " " << endl;
+
+	cout << k << endl;
+	cout << i << endl;
+
+	system("pause > nul");
+	return 0;
+}
 
