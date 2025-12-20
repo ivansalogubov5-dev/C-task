@@ -1,1 +1,26 @@
+#include<iostream>
+using namespace std;
 
+int main() {
+
+	system("chcp 1251 > nul");
+
+	int a, b;
+	cout << "Enter number a: " << endl;
+	cin >> a;
+	cout << "Enter number b: " << endl;
+	cin >> b;
+
+	if (a>b) {
+		cout << "a > b, what next?";
+	}
+	else if (a == b) {
+		cout << "a = b, what next?";
+	}
+	else {
+		cout << "a < b, what next?";
+	}
+
+	system("pause > nul");
+	return 0;
+}
