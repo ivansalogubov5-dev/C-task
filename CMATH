@@ -1,1 +1,48 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
 
+int main() {
+
+	system("chcp 1251 > nul");
+
+	// Sin, Cos, Acos, Asin, Tan, Atan
+	cout << sin(180) << endl;
+	cout << cos(180) << endl;
+	cout << asin(1) << endl;
+	cout << acos(1) << endl;
+	cout << tan(180) << endl;
+	cout << atan(180) << endl;
+	cout << " " << endl;
+
+	// Ceil, Floor, Abs 
+	float a = 3.13, b = 3.64, c = -2.34;
+	cout << "Rounding for a: " << endl;
+	cout << "Up to it's nearest integer: " << endl;
+	cout << ceil(a) << endl;
+	cout << "Down to it's nearest integer: " << endl;
+	cout << floor(a) << endl;
+	cout << " " << endl;
+	cout << "Rounding for b: " << endl;
+	cout << "Up to it's nearest integer: " << endl;
+	cout << ceil(b) << endl;
+	cout << "Down to it's nearest integer: " << endl;
+	cout << ceil(b) << endl;
+	cout << ' ' << endl;
+	cout << "ABS: " << abs(c);
+	cout << " " << endl;
+	cout << " " << endl;
+
+	// INT_MIN, INT_MAX, Sqrt(x), Log(x), Log10(x), Exp(x), Pow(x,y)
+	int s = INT_MIN;
+	int u = INT_MAX;
+	cout << s << endl;
+	cout << u << endl;
+	cout << sqrt(25) << endl;
+	cout << log(2.71828) << endl;
+	cout << log10(100) << endl;
+	cout << exp(1) << endl;
+	cout << pow(5,2) << endl;
+
+	system("pause > nul");
+	return 0;}
