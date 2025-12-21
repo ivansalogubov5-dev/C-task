@@ -1,1 +1,23 @@
+#include<iostream>
+using namespace std;
 
+int main() {
+
+	system("chcp 1251 > nul");
+
+	// Permanent data
+	const int i = 0;
+
+	// Int, Unsigned int, Short int, Unsigned short int, Long int, Unsigned long int, Long long int, Unsigned long long int
+	int w; // From -2b to 2b
+	unsigned int y; // From 0 to 4b
+	short int k; // From -32k to 32k
+	unsigned short int p; // From 0 to 65k
+	long int h; // From 0 to 8b
+	unsigned long int l; // From 0 to 8b
+	long long int d; // From -2^63 to 2^63-1
+	unsigned long long int r; // From 0 to 2^64
+
+	system("pause > nul");
+	return 0;
+}
