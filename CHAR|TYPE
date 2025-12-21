@@ -1,1 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	system("chcp 1251 > nul");
+
+	// From 'a' to 'z': 97-122
+	// From 'A' to 'Z': 65-90
+	// From '0' to '9': 48-57
+	char i = 'a';
+	cout << int(i) << endl;
+	cout << " " << endl;
+
+	// '\n' is newline
+	// '\\' is backslash
+	// '\t' is horizontal tab
+	// '\v' is vertical tab
+	// '\0' is null character
+	char r = 'R';
+	char u = 'U';
+	char b = 'B';
+	char y = 'Y';
+	char t = '\t';
+	char f = '\n';
+	cout << r << t << u << t << b << t << y;
+	cout << f << t << "IS THE BEST";
+
+	system("pause > nul");
+	return 0;
+}
 
