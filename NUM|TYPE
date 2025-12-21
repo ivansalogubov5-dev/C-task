@@ -18,6 +18,11 @@ int main() {
 	long long int d; // From -2^63 to 2^63-1
 	unsigned long long int r; // From 0 to 2^64
 
+	// Float, Double, Long double
+	float u; // From 1,1*10^-38 to 3,4*10^38
+	double g; // +/- 1,7E308
+	long double s; // +/- 1,7E308, but more bytes then double
+
 	system("pause > nul");
 	return 0;
 }
